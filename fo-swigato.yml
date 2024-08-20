@@ -8,7 +8,7 @@ eureka:
     fetch-registry: 'true'
 charges:
   extraCharge: '0'
-  platformFee: '10'
+  platformFee: '100'
   deliveryCharge: '40'
   gstPercentage: '18'
 spring:
