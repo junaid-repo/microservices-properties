@@ -1,0 +1,26 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: 'true'
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: 'true'
+charges:
+  extraCharge: '0'
+  platformFee: '10'
+  deliveryCharge: '40'
+  gstPercentage: '18'
+spring:
+  application:
+    name: swigato-service
+  datasource:
+    password: ${POSTGRESDBPASSWORD}
+    username: ${POSTGRESDBUSER}
+    url: ${POSTGRESDBURL}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+server:
+  port: '8088'
