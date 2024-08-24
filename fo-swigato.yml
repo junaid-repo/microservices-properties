@@ -16,7 +16,7 @@ spring:
     name: swigato-service
   datasource:
     url: jdbc:postgresql://localhost:5435/fo-swigato
-    username:postgres
+    username: postgres
     password: pass
   jpa:
     hibernate:
