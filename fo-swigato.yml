@@ -26,5 +26,5 @@ server:
   port: '8088'
 logging:
   level:
-    web: INFO
+    web: DEBUG
 
