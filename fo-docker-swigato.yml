@@ -24,3 +24,8 @@ spring:
     show-sql: 'true'
 server:
   port: '8088'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
