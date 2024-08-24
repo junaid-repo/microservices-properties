@@ -15,9 +15,9 @@ spring:
   application:
     name: swigato-service
   datasource:
-    password: jdbc:postgresql://localhost:5435/fo-swigato
+    url: jdbc:postgresql://localhost:5435/fo-swigato
     username:postgres
-    url: pass
+    password: pass
   jpa:
     hibernate:
       ddl-auto: update
