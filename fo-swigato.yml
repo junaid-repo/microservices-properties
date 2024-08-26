@@ -27,4 +27,5 @@ server:
 logging:
   level:
     web: INFO
-
+swigato:
+  host: localhost
