@@ -29,3 +29,5 @@ logging:
     web: INFO
 swigato:
   host: localhost
+  resturantPort: 8086
+  customersPort: 8087

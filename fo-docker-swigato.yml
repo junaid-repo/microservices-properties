@@ -31,3 +31,6 @@ management:
         include: '*'
 swigato:
   host: host.docker.internal
+  resturantPort: 7086
+  customersPort: 7087
+
