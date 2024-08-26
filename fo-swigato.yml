@@ -32,6 +32,12 @@ swigato:
   resturantPort: 8086
   customersPort: 8087
 
+management:
+  endpoints.web.exposure.include:
+    - '*'
+  endpoint.health.show-details: always
+  health.circuitbreakers.enabled: true
+
 resilience4j.circuitbreaker:
 configs:
 default:
