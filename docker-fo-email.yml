@@ -1,0 +1,7 @@
+email:
+  send:
+    waqf:
+      from: tahanasim3001@gmail.com
+      to: jpcwaqf-lss@sansad.nic.in
+server:
+  port: '6060'
