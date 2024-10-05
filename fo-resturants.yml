@@ -10,9 +10,9 @@ spring:
   application:
     name: resturants-service
   datasource:
-    password: pass
-    username: postgres
-    url: jdbc:postgresql://localhost:5435/fo-resturants
+    password: passpass
+    username: admin
+    url: jdbc:mysql://database001.c144wq06ejs8.eu-north-1.rds.amazonaws.com:3306/fo-resturants?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
   jpa:
     hibernate:
       ddl-auto: update
