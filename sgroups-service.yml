@@ -20,7 +20,11 @@ eureka:
   instance:
     hostname: splitwiseeureka-env.eba-qp57xgcp.eu-north-1.elasticbeanstalk.com
 
-
+external:
+  api:
+    suser:
+      service:
+        url: http://splitwise-users-env.eba-xig9a8iw.eu-north-1.elasticbeanstalk.com 
 
 management:
   health:
