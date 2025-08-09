@@ -47,27 +47,27 @@ resilience4j:
       createGroupCB:
         registerHealthIndicator: true
         eventConsumerBufferSize: 10
-        failureRateThreshold: 50
-        minimumNumberOfCalls: 5
+        failureRateThreshold: 150
+        minimumNumberOfCalls: 15
         automaticTransitionFromOpenToHalfOpenEnabled: true
-        waitDurationInOpenState: 6s
-        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 16s
+        permittedNumberOfCallsInHalfOpenState: 13
         slidingWindowSize: 10
         slidingWindowType: COUNT_BASED
         
   retry:
    instances:
       createGroupRetry:
-         max-attempts: 3
-         wait-duration: 5s
+         max-attempts: 12
+         wait-duration: 15s
          
   
   ratelimiter:
     instances:
       createGroupRL:
-        limit-refresh-period: 4s
-        limit-for-period: 2
-        timeout-duration: 2s
+        limit-refresh-period: 40s
+        limit-for-period: 20
+        timeout-duration: 20s
             
          
 
