@@ -26,7 +26,11 @@ resilience4j:
          splitBillRT:
             max-attempts: 5
             wait-duration: 5s
-         
-         
+
+external:
+  api:
+    sgroup:
+      service:
+        url: http://splitwise-group-env.eba-jpui4cbq.eu-north-1.elasticbeanstalk.com/
 
 
