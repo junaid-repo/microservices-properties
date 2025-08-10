@@ -15,8 +15,8 @@ spring:
          region:
            static: eu-north-1
          credentials:
-           access-key: 
-           secret-key: 
+           access-key: AKIAVHWHGB2PI6NUXLYV
+           secret-key: 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
 
 email:
   queueName: splitbill-emailQ
