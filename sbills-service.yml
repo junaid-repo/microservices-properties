@@ -10,6 +10,16 @@ spring:
        hibernate:
          ddl-auto: update
        show-sql: true
+     cloud:
+       aws:
+         region:
+           static: eu-north-1
+         credentials:
+           access-key: AKIAVHWHGB2PI6NUXLYV
+           secret-key: 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
+
+email:
+  queueName: splitbill-emailQ
        
 eureka:
   client:
@@ -26,6 +36,8 @@ resilience4j:
          splitBillRT:
             max-attempts: 5
             wait-duration: 5s
+
+
 
 external:
   api:
