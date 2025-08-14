@@ -3,8 +3,7 @@ server:
       
 spring:
      datasource:
-       #url: jdbc:postgresql://aws-postgres.c70owmmqe0r0.eu-north-1.rds.amazonaws.com:5432/DemoDB
-       url: jdbc:postgresql://localhost:5432/splitwise
+       url: jdbc:postgresql://aws-postgres.c70owmmqe0r0.eu-north-1.rds.amazonaws.com:5432/DemoDB
        username: postgres
        password: postgres
      jpa:
